@@ -1,2 +1,2 @@
 # Accredian-frontend-task
-Accredian assignment code present here
+Accredian's assignment frontend codes are present here
