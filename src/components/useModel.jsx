@@ -24,7 +24,7 @@ const useModal = () => {
   const handleFormSubmit = async (formData) => {
     console.log("Form submitted:", formData);
     try {
-      const response = await axios.post('http://localhost:3000/api/v1/createReferral', formData);
+      const response = await axios.post('https://accredian-backend-task-1-q5wp.onrender.com/api/v1/createReferral', formData);
       if (response.status === 201) {
         alert('Referral created successfully');
         setIsModalOpen(false);
